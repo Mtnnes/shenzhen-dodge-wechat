@@ -1,0 +1,14 @@
+{
+  "compileType": "miniprogram",
+  "libVersion": "3.17.1",
+  "appid": "wx8f67c6e67c920fa4",
+  "projectname": "shenzhen-dodge",
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "postcss": true,
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "uploadWithSourceMap": true
+  }
+}

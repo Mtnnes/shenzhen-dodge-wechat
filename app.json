@@ -1,0 +1,11 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "navigationBarTitleText": "深圳闪避",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#092b36",
+    "backgroundColor": "#092b36"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel"
+}

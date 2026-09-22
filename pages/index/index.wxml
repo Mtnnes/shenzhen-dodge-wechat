@@ -1,0 +1,22 @@
+<view class="game-shell">
+  <canvas
+    id="game-canvas"
+    type="2d"
+    class="game-canvas"
+    disable-scroll="true"
+    bindtouchstart="onTouchStart"
+    bindtouchmove="onTouchMove"
+    bindtouchend="onTouchEnd"
+    bindtouchcancel="onTouchCancel"
+  />
+
+  <view wx:if="{{shareReady}}" class="share-sheet">
+    <view class="share-card">
+      <image wx:if="{{shareImage}}" class="share-preview" src="{{shareImage}}" mode="aspectFill" />
+      <view class="share-title">战报已经生成</view>
+      <view class="share-copy">发给朋友，看看谁能准点打卡</view>
+      <button class="share-button" open-type="share">分享给微信好友</button>
+      <button class="close-button" bindtap="closeShare">返回游戏</button>
+    </view>
+  </view>
+</view>

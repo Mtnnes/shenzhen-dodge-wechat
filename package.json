@@ -1,0 +1,13 @@
+{
+  "name": "shenzhen-dodge-wechat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs",
+    "check": "node --check app.js && node --check engine.js && node --check pages/index/index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
